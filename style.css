@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@300..700&display=swap');
+
+/* Configurações Globais */
+
+    * {
+        box-sizing: border-box;
+    }
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+  }
+
+/* Fim Configurações Globais */
+  .header {
+    background: url('https://cdn-assets-legacy.casar.com/img/sdn/49/topo-default.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: "Great Vibes", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .header p {
+    font-size: 1.5rem;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .countdown-item {
+    margin: 0 10px;
+    text-align: center;
+    background-color: #BDB6AE;
+    padding: 15px;
+    border-radius: 20px;
+    color: #f4f4f4;
+    font-family: "Quicksand", serif;
+    font-weight: 900;
+  }
+  
+  .countdown-item span {
+    display: block;
+    font-size: 1.7rem;
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
